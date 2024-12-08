@@ -1,15 +1,57 @@
 # Part 1
 ### a)
-
+grep "beed" forest/filescan_00.1 > captured/beedrill.txt
+grep "blas" forest/filescan_00.1 > captured/blastoise.txt
+grep "bulb" forest/filescan_00.1 > captured/bulbasaur.txt
+grep "butt" forest/filescan_00.1 > captured/butterfree.txt
+grep "izard" forest/filescan_00.2 > captured/charizard.txt
+grep "mander" forest/filescan_00.2 > captured/charmander.txt
+grep "meleon" forest/filescan_00.2 > captured/charmeleon.txt
+grep "ivys" forest/filescan_00.3 > captured/ivysaur.txt
+grep "jigg" forest/filescan_00.3 > captured/jigglypuff.txt
+grep "meow" forest/filescan_00.3 > captured/meowth.txt
+grep "pika" forest/filescan_00.3 > captured/pikachu.txt
+grep "psyd" forest/filescan_00.4 > captured/psyduck.txt
+grep "squi" forest/filescan_00.4 > captured/sqirtle.txt
+grep "venu" forest/filescan_00.4 > captured/venusaur.txt
+grep "wart" forest/filescan_00.4 > captured/wartortle.txt
 
 
 
 ### b)
-
+ > captured/beedrill.txt
+> captured/blastoise.txt
+> captured/bulbasaur.txt
+ > captured/butterfree.txt
+ > captured/charizard.txt
+> captured/charmander.txt
+ > captured/charmeleon.txt
+ > captured/ivysaur.txt
+ > captured/jigglypuff.txt
+ > captured/meowth.txt
+ > captured/pikachu.txt
+ > captured/psyduck.txt
+ > captured/sqirtle.txt
+> captured/venusaur.txt
+> captured/wartortle.txt
 
 
 ### c)
-
+I found beedrill in the filescan_00.1 section of the forest.
+I found blastoise in the filescan_00.1 section of the forest.
+I found bulbasaur in the filescan_00.1 section of the forest.
+I found butterfree in the filescan_00.1 section of the forest.
+I found charizard in the filescan_00.2 section of the forest.
+I found charmander in the filescan_00.2 section of the forest.
+I found charmeleon in the filescan_00.2 section of the forest.
+I found ivysaur in the filescan_00.3 section of the forest.
+I found jigglypuff in the filescan_00.3 section of the forest.
+I found meowth in the filescan_00.3 section of the forest.
+I found pikachu in the filescan_00.3 section of the forest.
+I found psyduck in the filescan_00.4 section of the forest.
+I found squirtle in the filescan_00.4 section of the forest.
+I found venusaur in the filescan_00.4 section of the forest.
+I found wartortle in the filescan_00.4 section of the forest.
 
 
 
@@ -24,6 +66,8 @@
 
 # Part 2
 ### a)
+15 is the count.
+grep -l "" captured/*.txt | grep -v "instruction.txt" | wc -l
 
 
 
